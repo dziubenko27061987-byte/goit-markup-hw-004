@@ -1,0 +1,56 @@
+.logo
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33333;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
+
+.logo .accent
+{
+    color: #2e2f42;
+}
+
+.nav
+{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-list
+{
+    font-weight: 500;
+}
+.nav-list .nav-link
+{
+    color: #2E2F42;
+}
+
+.nav-list .nav-link:hover, 
+.nav-list .nav-link:focus
+{
+    color: #404bbf;
+}
+
+.address
+{
+    font-style: normal;
+}
+
+.address-list
+{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+.address-list .address-link:hover,
+.address-list .address-link:focus
+{
+    color: #404BBF;
+}
