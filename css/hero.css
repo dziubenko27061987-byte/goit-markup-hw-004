@@ -1,7 +1,17 @@
 .hero
 {
 background-color: #2E2F42; 
-text-align: center;
+border: 1px solid #000;
+    padding-block: 188px;
+    padding-inline: 0px;
+    width: 1440px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero .container {
+    flex-direction: column;
+    gap: 48px;
 }
 
 .title
@@ -13,6 +23,8 @@ color: #fff;
 text-align: center;
 line-height: 1.07;
 letter-spacing: 0.02em;
+max-width: 496px;
+margin: 0 auto;
 }
 
 .button
