@@ -1,7 +1,6 @@
 .hero
 {
 background-color: #2E2F42; 
-border: 1px solid #000;
     padding-block: 188px;
     padding-inline: 0px;
     flex-direction: column;

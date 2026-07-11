@@ -1,8 +1,14 @@
 .header
 {
 border-bottom: 1px solid #e7e9fc;
-display: flex;
-/* align-items: center; */
+padding-block: 24px;
+padding-inline: 0;
+}
+
+.header .container 
+{
+    display: flex;
+    align-items: center;
 }
 
 .logo
@@ -15,7 +21,7 @@ display: flex;
     letter-spacing: 0.03em;
     color: #4D5AE5;
     margin-right: 208px;
-    align-items: center;
+   
 }
 
 .logo .accent
@@ -32,6 +38,7 @@ display: flex;
 .nav-list
 {
     display: flex;
+    align-items: center;
     font-weight: 500;
     gap: 40px;
 }
@@ -49,7 +56,7 @@ display: flex;
 .address
 {
     font-style: normal;
-    margin-left: 208px;
+    margin-left: auto;
 }
 
 .address-list
@@ -72,7 +79,7 @@ color: #434455;
 .nav-link,
 .address-link 
 {
-    display: block;
+    /* display: block; */
     padding-top: 24px;
     padding-bottom: 24px;
     text-decoration: none;
