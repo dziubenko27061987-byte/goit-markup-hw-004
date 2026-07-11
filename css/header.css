@@ -1,8 +1,6 @@
 .header
 {
 border-bottom: 1px solid #e7e9fc;
-padding-block: 24px;
-padding-inline: 0;
 }
 
 .header .container 
@@ -20,7 +18,7 @@ padding-inline: 0;
     line-height: 1.33333;
     letter-spacing: 0.03em;
     color: #4D5AE5;
-    margin-right: 208px;
+    margin-right: 76px;
    
 }
 
@@ -79,7 +77,7 @@ color: #434455;
 .nav-link,
 .address-link 
 {
-    /* display: block; */
+    display: block;
     padding-top: 24px;
     padding-bottom: 24px;
     text-decoration: none;
