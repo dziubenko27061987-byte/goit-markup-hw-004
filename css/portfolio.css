@@ -1,11 +1,18 @@
 .portfolio
 {
+    padding-top: 120px;
     padding-bottom: 120px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio .container
 {
     flex-direction: column;
+}
+
+.images
+{
+    display: block;
 }
 
 .portfolio-list
@@ -17,7 +24,7 @@
 {
 display: flex;
 flex-wrap: wrap;
-gap: 24px;
+gap: 48px 24px;
 justify-content: center;
 }
 

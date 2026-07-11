@@ -11,9 +11,8 @@ body
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    min-width: 1158px;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 ul

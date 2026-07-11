@@ -1,6 +1,8 @@
 .header
 {
 border-bottom: 1px solid #e7e9fc;
+display: flex;
+/* align-items: center; */
 }
 
 .logo
@@ -12,7 +14,7 @@ border-bottom: 1px solid #e7e9fc;
     line-height: 1.33333;
     letter-spacing: 0.03em;
     color: #4D5AE5;
-    margin-right: auto;
+    margin-right: 208px;
     align-items: center;
 }
 
@@ -47,7 +49,7 @@ border-bottom: 1px solid #e7e9fc;
 .address
 {
     font-style: normal;
-    margin-left: auto;
+    margin-left: 208px;
 }
 
 .address-list

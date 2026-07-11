@@ -3,8 +3,8 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     background: #f4f4fd;
+    padding-top: 120px;
     padding-bottom: 120px;
-    
 }
     
 .team-ul
@@ -28,8 +28,15 @@ justify-content: center;
 .team-list
 {
     background: #fff;
+    border-radius: 0 0 4px 4px;
+    width: 264px;
 }
 
+
+.foto
+{
+    display: block;
+}
 .name
 {
     text-align: center;
@@ -38,6 +45,7 @@ justify-content: center;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .job
