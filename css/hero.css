@@ -4,7 +4,15 @@ background-color: #2E2F42;
     padding-block: 188px;
     padding-inline: 0px;
     flex-direction: column;
-   
+    background-image: url(../images/hero-bg\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;   
+    background-position: center;
+    background-image: linear-gradient(180deg,
+        rgba(46, 47, 66, 0.7) 0%,
+        rgba(46, 47, 66, 0.7) 100%), url(../images/hero-bg\ \(1\).jpg);
+    max-width: 1440;
+    margin: 0 auto;
 }
 
 .hero .container {
@@ -41,7 +49,7 @@ margin: 0 auto;
     cursor: pointer;
     padding: 16px 32px;
     border: none;
-    ;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
