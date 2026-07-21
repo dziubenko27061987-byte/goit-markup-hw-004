@@ -10,8 +10,9 @@
 .team-ul
 {
 display: flex;
-gap: 24px;
 justify-content: center;
+align-items: center;
+gap: 24px;
 }
 
 .title-team
@@ -30,13 +31,17 @@ justify-content: center;
     background: #fff;
     border-radius: 0 0 4px 4px;
     width: 264px;
+    overflow: hidden;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
-
 
 .foto
 {
     display: block;
+    width: 100%;
+    height: auto;
 }
+
 .name
 {
     text-align: center;
@@ -56,13 +61,46 @@ justify-content: center;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .team .container {
     flex-direction: column;
 }
 
+.team-social-list 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
 .team-content
 {
     padding: 32px 16px;
+    text-align: center;
+}
+
+.team-link 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-link:hover,
+.team-link:focus 
+{
+    background-color: #404bbf;
+}
+
+.icon-team
+{
+   fill: #F4F4FD;
 }

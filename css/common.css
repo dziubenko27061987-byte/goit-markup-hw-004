@@ -6,7 +6,8 @@ body
     color: #2e2f42;
 }
 
-.container {
+.container 
+{
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;

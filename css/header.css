@@ -42,7 +42,23 @@ border-bottom: 1px solid #e7e9fc;
 }
 .nav-list .nav-link
 {
+    position: relative;
     color: #2E2F42;
+}
+
+.nav-link.current {
+    color: #404bbf;
+}
+
+.nav-link.current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .nav-list .nav-link:hover, 
