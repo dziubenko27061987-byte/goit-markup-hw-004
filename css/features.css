@@ -45,7 +45,10 @@
         border-radius: 4px;
         width: 264px;
         height: 112px;
+        background: #f4f4fd; 
+        margin-bottom: 8px;
 }
+
 
 .icon-features
 {
@@ -55,8 +58,5 @@
     justify-content: center;
     width: 264px;
     height: 112px;
-    background: #f4f4fd;
-    padding: 24px 100px;
-    margin-bottom: 8px;
+    padding: 24px 100px;   
 }
-
