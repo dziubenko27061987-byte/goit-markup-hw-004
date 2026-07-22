@@ -4,10 +4,10 @@
     padding: 100px 0;
 }
 
-.footer-container
+.container
 {
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
 }
 
 .footer-info 
@@ -65,6 +65,10 @@
     height: 40px;
     background-color: #4d5ae5;
     border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4,
+                0,
+                0.2,
+                1);
 }
 
 .social-link:hover,

@@ -42,21 +42,18 @@
 .picture-f-es
 {
     border: 1px solid #8e8f99;
-        border-radius: 4px;
-        width: 264px;
-        height: 112px;
-        background: #f4f4fd; 
-        margin-bottom: 8px;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd; 
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .icon-features
 {
     fill: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 264px;
-    height: 112px;
-    padding: 24px 100px;   
 }
